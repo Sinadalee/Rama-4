@@ -31,7 +31,22 @@ def getedge(sensorid):
     print(txt)
     return txt
 
-filename_vol = 'Volume_SampleData_Edge.csv'
+def getlane(sensorid, lane, vol):
+    txt = '            <lane id="<LANE_ID>" left="<LEFT_VEH_NUMBER>"/> <!--<DETAIL>-->\n'
+    edgeid = df_sensor[df_sensor['SensorID'] == sensorid].EdgeID.to_string()[5:]
+    laneid = edgeid + '_' + lane
+    #detail = df_sensor[df_sensor['SensorID'] == sensorid].SensorDetail.to_string()[5:] + '_L' + lane
+    detail = df_lane[df_lane['id'] == "'"+laneid+"'"].name.to_string()[5:]
+
+    txt = txt.replace("<LANE_ID>", laneid)
+    txt = txt.replace("<LEFT_VEH_NUMBER>", vol)
+    txt = txt.replace("<DETAIL>", detail)
+
+    xml.write(txt)
+    print(txt)
+    return txt
+
+filename_vol = 'Volume_SampleData_Lane.csv'
 filename_sensor = 'SensorData.csv'
 filename_lane = 'namelane.csv'
 filename_xml = "lanecount.xml"
