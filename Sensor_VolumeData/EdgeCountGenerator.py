@@ -21,13 +21,13 @@ def getinterval(begin, end, id):
     return txt
 
 def getedge(sensorid, vol):
-    txt = '        <edge id="<EDGE_ID>" left="<LEFT_VEH_NUMBER>"/> <!--<DETAIL>-->\n'
+    txt = '        <edge id="<EDGE_ID>" entered="<ENTERED_VEH_NUMBER>"/> <!--<DETAIL>-->\n'
     edgeid = df_sensor[df_sensor['SensorID'] == sensorid].EdgeID.to_string()[5:]
     detail = df_sensor[df_sensor['SensorID'] == sensorid].SensorDetail.to_string()[5:]
     #detail = df_lane[df_lane['id'] == "'"+laneid+"'"].name.to_string()[5:]
 
     txt = txt.replace("<EDGE_ID>", edgeid)
-    txt = txt.replace("<LEFT_VEH_NUMBER>", vol)
+    txt = txt.replace("<ENTERED_VEH_NUMBER>", vol)
     txt = txt.replace("<DETAIL>", detail)
 
     xml.write(txt)

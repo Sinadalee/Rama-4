@@ -32,14 +32,14 @@ def getedge(sensorid):
     return txt
 
 def getlane(sensorid, lane, vol):
-    txt = '            <lane id="<LANE_ID>" left="<LEFT_VEH_NUMBER>"/> <!--<DETAIL>-->\n'
+    txt = '            <lane id="<LANE_ID>" entered="<ENTERED_VEH_NUMBER>"/> <!--<DETAIL>-->\n'
     edgeid = df_sensor[df_sensor['SensorID'] == sensorid].EdgeID.to_string()[5:]
     laneid = edgeid + '_' + lane
     #detail = df_sensor[df_sensor['SensorID'] == sensorid].SensorDetail.to_string()[5:] + '_L' + lane
     detail = df_lane[df_lane['id'] == "'"+laneid+"'"].name.to_string()[5:]
 
     txt = txt.replace("<LANE_ID>", laneid)
-    txt = txt.replace("<LEFT_VEH_NUMBER>", vol)
+    txt = txt.replace("<ENTERED_VEH_NUMBER>", vol)
     txt = txt.replace("<DETAIL>", detail)
 
     xml.write(txt)

@@ -8,7 +8,7 @@
     <input>
         <net-file value="onnut.net.xml"/>
         <!--route-files value="onnut.trips.xml"/>-->
-	<route-files value="route03.rou.xml"/>
+	<route-files value="route_routesampler_edgecount.xml"/>
 	<additional-files value="detectors_01.add.xml"/>
 
     </input>

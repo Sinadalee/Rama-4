@@ -1,269 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--This "edgecount.xml" file is generated on 2021-03-08 10:59:12.946097
+<!--This "edgecount.xml" file is generated on 2021-03-08 19:57:32.113321
     by "LaneCountGenerator.py" with input file 1)"Volume_SampleData_Edge.csv" 2)"SensorData.csv"-->
 <meandata>
     <interval begin="61200" end="61205" id="generated"> <!--17:00:00 - 17:00:05-->
-        <edge id="113135397#3" left="0"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="15"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="16"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="19"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="5"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="1"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="16"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="12"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="5"/> <!--s([], )-->
+        <edge id="113135397#3" entered="0"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="15"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="16"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="19"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="5"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="1"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="16"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="12"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="5"/> <!--s([], )-->
     </interval>
     <interval begin="61205" end="61210" id="generated"> <!--17:00:05 - 17:00:10-->
-        <edge id="113135397#3" left="10"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="6"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="18"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="0"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="7"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="2"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="18"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="7"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="11"/> <!--s([], )-->
+        <edge id="113135397#3" entered="10"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="6"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="18"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="0"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="7"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="2"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="18"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="7"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="11"/> <!--s([], )-->
     </interval>
     <interval begin="61210" end="61215" id="generated"> <!--17:00:10 - 17:00:15-->
-        <edge id="113135397#3" left="5"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="1"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="2"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="15"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="1"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="20"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="1"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="5"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="10"/> <!--s([], )-->
+        <edge id="113135397#3" entered="5"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="1"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="2"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="15"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="1"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="20"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="1"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="5"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="10"/> <!--s([], )-->
     </interval>
     <interval begin="61215" end="61220" id="generated"> <!--17:00:15 - 17:00:20-->
-        <edge id="113135397#3" left="15"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="7"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="1"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="20"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="3"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="11"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="7"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="10"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="3"/> <!--s([], )-->
+        <edge id="113135397#3" entered="15"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="7"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="1"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="20"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="3"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="11"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="7"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="10"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="3"/> <!--s([], )-->
     </interval>
     <interval begin="61220" end="61225" id="generated"> <!--17:00:20 - 17:00:25-->
-        <edge id="113135397#3" left="1"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="14"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="17"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="8"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="11"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="18"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="17"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="14"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="8"/> <!--s([], )-->
+        <edge id="113135397#3" entered="1"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="14"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="17"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="8"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="11"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="18"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="17"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="14"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="8"/> <!--s([], )-->
     </interval>
     <interval begin="61225" end="61230" id="generated"> <!--17:00:25 - 17:00:30-->
-        <edge id="113135397#3" left="17"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="7"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="3"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="15"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="4"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="16"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="1"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="5"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="10"/> <!--s([], )-->
+        <edge id="113135397#3" entered="17"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="7"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="3"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="15"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="4"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="16"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="1"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="5"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="10"/> <!--s([], )-->
     </interval>
     <interval begin="61230" end="61235" id="generated"> <!--17:00:30 - 17:00:35-->
-        <edge id="113135397#3" left="16"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="14"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="19"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="10"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="19"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="16"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="7"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="7"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="15"/> <!--s([], )-->
+        <edge id="113135397#3" entered="16"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="14"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="19"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="10"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="19"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="16"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="7"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="7"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="15"/> <!--s([], )-->
     </interval>
     <interval begin="61235" end="61240" id="generated"> <!--17:00:35 - 17:00:40-->
-        <edge id="113135397#3" left="11"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="4"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="13"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="4"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="8"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="17"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="14"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="8"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="5"/> <!--s([], )-->
+        <edge id="113135397#3" entered="11"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="4"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="13"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="4"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="8"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="17"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="14"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="8"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="5"/> <!--s([], )-->
     </interval>
     <interval begin="61240" end="61245" id="generated"> <!--17:00:40 - 17:00:45-->
-        <edge id="113135397#3" left="20"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="7"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="9"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="13"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="12"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="18"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="12"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="3"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="13"/> <!--s([], )-->
+        <edge id="113135397#3" entered="20"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="7"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="9"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="13"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="12"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="18"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="12"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="3"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="13"/> <!--s([], )-->
     </interval>
     <interval begin="61245" end="61250" id="generated"> <!--17:00:45 - 17:00:50-->
-        <edge id="113135397#3" left="10"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="7"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="12"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="20"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="2"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="10"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="2"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="14"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="8"/> <!--s([], )-->
+        <edge id="113135397#3" entered="10"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="7"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="12"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="20"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="2"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="10"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="2"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="14"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="8"/> <!--s([], )-->
     </interval>
     <interval begin="61250" end="61255" id="generated"> <!--17:00:50 - 17:00:55-->
-        <edge id="113135397#3" left="5"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="18"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="9"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="18"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="5"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="16"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="1"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="18"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="12"/> <!--s([], )-->
+        <edge id="113135397#3" entered="5"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="18"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="9"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="18"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="5"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="16"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="1"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="18"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="12"/> <!--s([], )-->
     </interval>
     <interval begin="61255" end="61260" id="generated"> <!--17:00:55 - 17:01:00-->
-        <edge id="113135397#3" left="1"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="4"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="1"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="3"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="4"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="17"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="16"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="9"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="5"/> <!--s([], )-->
+        <edge id="113135397#3" entered="1"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="4"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="1"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="3"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="4"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="17"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="16"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="9"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="5"/> <!--s([], )-->
     </interval>
     <interval begin="61260" end="61265" id="generated"> <!--17:01:00 - 17:01:05-->
-        <edge id="113135397#3" left="14"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="11"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="0"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="18"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="9"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="9"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="9"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="3"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="4"/> <!--s([], )-->
+        <edge id="113135397#3" entered="14"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="11"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="0"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="18"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="9"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="9"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="9"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="3"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="4"/> <!--s([], )-->
     </interval>
     <interval begin="61265" end="61270" id="generated"> <!--17:01:05 - 17:01:10-->
-        <edge id="113135397#3" left="4"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="18"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="14"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="16"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="20"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="6"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="1"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="20"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="6"/> <!--s([], )-->
+        <edge id="113135397#3" entered="4"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="18"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="14"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="16"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="20"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="6"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="1"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="20"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="6"/> <!--s([], )-->
     </interval>
     <interval begin="61270" end="61275" id="generated"> <!--17:01:10 - 17:01:15-->
-        <edge id="113135397#3" left="12"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="8"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="16"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="20"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="0"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="6"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="14"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="18"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="0"/> <!--s([], )-->
+        <edge id="113135397#3" entered="12"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="8"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="16"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="20"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="0"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="6"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="14"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="18"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="0"/> <!--s([], )-->
     </interval>
     <interval begin="61275" end="61280" id="generated"> <!--17:01:15 - 17:01:20-->
-        <edge id="113135397#3" left="4"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="18"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="12"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="1"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="9"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="13"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="1"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="11"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="12"/> <!--s([], )-->
+        <edge id="113135397#3" entered="4"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="18"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="12"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="1"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="9"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="13"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="1"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="11"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="12"/> <!--s([], )-->
     </interval>
     <interval begin="61280" end="61285" id="generated"> <!--17:01:20 - 17:01:25-->
-        <edge id="113135397#3" left="16"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="13"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="7"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="19"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="13"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="9"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="3"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="13"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="12"/> <!--s([], )-->
+        <edge id="113135397#3" entered="16"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="13"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="7"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="19"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="13"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="9"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="3"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="13"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="12"/> <!--s([], )-->
     </interval>
     <interval begin="61285" end="61290" id="generated"> <!--17:01:25 - 17:01:30-->
-        <edge id="113135397#3" left="1"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="17"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="18"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="12"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="11"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="20"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="6"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="6"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="10"/> <!--s([], )-->
+        <edge id="113135397#3" entered="1"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="17"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="18"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="12"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="11"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="20"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="6"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="6"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="10"/> <!--s([], )-->
     </interval>
     <interval begin="61290" end="61295" id="generated"> <!--17:01:30 - 17:01:35-->
-        <edge id="113135397#3" left="20"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="15"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="1"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="4"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="20"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="17"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="18"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="20"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="19"/> <!--s([], )-->
+        <edge id="113135397#3" entered="20"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="15"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="1"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="4"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="20"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="17"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="18"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="20"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="19"/> <!--s([], )-->
     </interval>
     <interval begin="61295" end="61300" id="generated"> <!--17:01:35 - 17:01:40-->
-        <edge id="113135397#3" left="19"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="10"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="0"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="17"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="20"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="14"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="17"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="13"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="7"/> <!--s([], )-->
+        <edge id="113135397#3" entered="19"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="10"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="0"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="17"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="20"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="14"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="17"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="13"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="7"/> <!--s([], )-->
     </interval>
     <interval begin="61300" end="61305" id="generated"> <!--17:01:40 - 17:01:45-->
-        <edge id="113135397#3" left="10"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="9"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="18"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="20"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="20"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="6"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="15"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="6"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="11"/> <!--s([], )-->
+        <edge id="113135397#3" entered="10"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="9"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="18"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="20"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="20"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="6"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="15"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="6"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="11"/> <!--s([], )-->
     </interval>
     <interval begin="61305" end="61310" id="generated"> <!--17:01:45 - 17:01:50-->
-        <edge id="113135397#3" left="16"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="14"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="2"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="18"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="9"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="0"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="2"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="7"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="18"/> <!--s([], )-->
+        <edge id="113135397#3" entered="16"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="14"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="2"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="18"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="9"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="0"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="2"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="7"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="18"/> <!--s([], )-->
     </interval>
     <interval begin="61310" end="61315" id="generated"> <!--17:01:50 - 17:01:55-->
-        <edge id="113135397#3" left="14"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="19"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="9"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="5"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="7"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="8"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="18"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="8"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="18"/> <!--s([], )-->
+        <edge id="113135397#3" entered="14"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="19"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="9"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="5"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="7"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="8"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="18"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="8"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="18"/> <!--s([], )-->
     </interval>
     <interval begin="61315" end="61320" id="generated"> <!--17:01:55 - 17:02:00-->
-        <edge id="113135397#3" left="17"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
-        <edge id="-113135397#4" left="9"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
-        <edge id="751454885#2" left="11"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
-        <edge id="751454884#2" left="4"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
-        <edge id="156591171#2" left="9"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
-        <edge id="824116560#3" left="7"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
-        <edge id="300825126#0" left="17"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
-        <edge id="113135465#0" left="11"/> <!--S_ONT_08_Uturn-->
-        <edge id="s([], )" left="8"/> <!--s([], )-->
+        <edge id="113135397#3" entered="17"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
+        <edge id="-113135397#4" entered="9"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
+        <edge id="751454885#2" entered="11"/> <!--S_ONT_03_Sukhumvit_Depart_EB-->
+        <edge id="751454884#2" entered="4"/> <!--S_ONT_04_Sukhumvit_Arive_WB-->
+        <edge id="156591171#2" entered="9"/> <!--S_ONT_05_OnNutRd_Arrive_SB(TurnCount)-->
+        <edge id="824116560#3" entered="7"/> <!--S_ONT_06_Sukhumvit_Arrive_EB(TurnCount)-->
+        <edge id="300825126#0" entered="17"/> <!--S_ONT_07_Sukhumvit_Arive_EB-->
+        <edge id="113135465#0" entered="11"/> <!--S_ONT_08_Uturn-->
+        <edge id="s([], )" entered="8"/> <!--s([], )-->
     </interval>
 </meandata>
