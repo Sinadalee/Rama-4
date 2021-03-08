@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--This "edgecount.xml" file is generated on 2021-03-08 10:59:12.946097
     by "LaneCountGenerator.py" with input file 1)"Volume_SampleData_Edge.csv" 2)"SensorData.csv"-->
-<edgeRelations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edgerelations_file.xsd">
+<edgedata>
     <interval begin="61200" end="61205" id="generated"> <!--17:00:00 - 17:00:05-->
         <edge id="113135397#3" left="0"/> <!--S_ONT_01_OnNutRd_Depart_NB-->
         <edge id="-113135397#4" left="15"/> <!--S_ONT_02_OnNutRd_Arrive_SB-->
@@ -266,4 +266,4 @@
         <edge id="113135465#0" left="11"/> <!--S_ONT_08_Uturn-->
         <edge id="s([], )" left="8"/> <!--s([], )-->
     </interval>
-</edgeRelations>
+</edgedata>
