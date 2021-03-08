@@ -1,8 +1,6 @@
-duarouter --route-files onnut.rou.xml --net-file onnut.net.xml --output-file route_duarouter.xml
+duarouter --route-files routes.rou.xml --net-file onnut.net.xml --output-file route_duarouter.xml
 
 
-python "C:\Program Files (x86)\Eclipse\Sumo\tools\routeSampler.py" -r route01.rou.xml --turn-files onnut_turn.xml -o route_routesamplier.xml
+python "C:\Program Files (x86)\Eclipse\Sumo\tools\routeSampler.py" -r route_duarouter.xml --turn-files onnut_turn.xml -o route_routesampler_turncount.xml
 
-python "C:\Program Files (x86)\Eclipse\Sumo\tools\routeSampler.py" -r route_duarouter.xml --turn-files onnut_turn.xml -o route_routesamplier.xml
-
-python "C:\Program Files (x86)\Eclipse\Sumo\tools\routeSampler.py" -r onnut_turn.xml --edgedata-files edgecount.xml -o route_afterroutesamplier.xml
+python "C:\Program Files (x86)\Eclipse\Sumo\tools\routeSampler.py" -r route_duarouter.xml --edgedata-files edgecount.xml -o route_routesampler_edgecount.xml

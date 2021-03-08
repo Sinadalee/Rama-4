@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--This "lanecount.xml" file is generated on 2021-03-08 10:49:16.932784
+<!--This "lanecount.xml" file is generated on 2021-03-08 10:59:06.844924
     by "LaneCountGenerator.py" with input file 1)"Volume_SampleData_Lane.csv" 2)"SensorData.csv"-->
 <meandata>
     <interval begin="61200" end="61205" id="generated"> <!--17:00:00 - 17:00:05-->

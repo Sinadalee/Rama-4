@@ -20,11 +20,14 @@ def getinterval(begin, end, id):
     xml.write(txt)
     return txt
 
-def getedge(sensorid):
+def getedge(sensorid, vol):
+    txt = '        <edge id="<EDGE_ID>" left="<LEFT_VEH_NUMBER>"/> <!--<DETAIL>-->\n'
     edgeid = df_sensor[df_sensor['SensorID'] == sensorid].EdgeID.to_string()[5:]
     detail = df_sensor[df_sensor['SensorID'] == sensorid].SensorDetail.to_string()[5:]
-    txt = '        <edge id="<EDGE_ID>"> <!--<DETAIL>-->\n'
+    #detail = df_lane[df_lane['id'] == "'"+laneid+"'"].name.to_string()[5:]
+
     txt = txt.replace("<EDGE_ID>", edgeid)
+    txt = txt.replace("<LEFT_VEH_NUMBER>", vol)
     txt = txt.replace("<DETAIL>", detail)
 
     xml.write(txt)
@@ -34,7 +37,7 @@ def getedge(sensorid):
 filename_vol = 'Volume_SampleData_Edge.csv'
 filename_sensor = 'SensorData.csv'
 filename_lane = 'namelane.csv'
-filename_xml = "lanecount.xml"
+filename_xml = "edgecount.xml"
 df_vol = pd.read_csv(filename_vol)
 df_sensor = pd.read_csv(filename_sensor)
 df_lane = pd.read_csv(filename_lane)
@@ -62,24 +65,13 @@ for index, row in df_vol.iterrows(): # for every timestamp
 
     # write interval in xml
     getinterval(begin, end, id)
-    currentsensor = ''
 
     sensorlane_list_drop = list(row.index[1:])
     for sensorlane_id in sensorlane_list_drop: # for every sensor and lane data
-        sensor_id = sensorlane_id[:-2]
-        lane_id = sensorlane_id[-1:]
+        sensor_id = sensorlane_id
         vol = str(row[sensorlane_id])
 
-        if sensor_id != currentsensor: # if current id is new sensor, edge
-            getedge(sensor_id)
-            currentsensor = sensor_id
-
-        getlane(sensor_id, lane_id, vol)
-
-        # if current id is new or last sensor, edge
-        if sensorlane_id == sensorlane_list_drop[-1] or sensor_id != sensorlane_list_drop[sensorlane_list_drop.index(sensorlane_id)+1][:-2]:
-
-            xml.write('        </edge>\n')
+        getedge(sensor_id, vol)
 
     xml.write('    </interval>\n')
 
