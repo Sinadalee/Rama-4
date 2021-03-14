@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='ASCII'?>
+<additionals>
+  <e2Detector id="S_ONT_01_0" lane="113135397#3_0" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_01_1" lane="113135397#3_1" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_02_0" lane="-113135397#4_0" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_02_1" lane="-113135397#4_1" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_03_0" lane="751454885#2_0" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_03_1" lane="751454885#2_1" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_03_2" lane="751454885#2_2" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_04_0" lane="751454884#2_0" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_04_1" lane="751454884#2_1" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_04_2" lane="751454884#2_2" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_05_0" lane="156591171#2_0" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_05_1" lane="156591171#2_1" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_05_2" lane="156591171#2_2" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_06_0" lane="824116560#3_0" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_06_1" lane="824116560#3_1" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_06_2" lane="824116560#3_2" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_06_3" lane="824116560#3_3" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_07_0" lane="300825126#0_0" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_07_1" lane="300825126#0_1" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_07_2" lane="300825126#0_2" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+  <e2Detector id="S_ONT_08_0" lane="113135465#0_0" pos="0.0" endPos="0.00" friendlyPos="True" length="50.00" freq="2.00" file="map_grid_lock_output1.xml" cont="0" timeThreshold="1.00" speedThreshold="1.39" jamThreshold="10.00"/>
+</additionals>

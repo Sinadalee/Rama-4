@@ -34,7 +34,7 @@ def getedge(sensorid, vol):
     print(txt)
     return txt
 
-filename_vol = 'Volume_SampleData_Edge.csv'
+filename_vol = 'Volume_SampleData_Lane.csv'
 filename_sensor = 'SensorData.csv'
 filename_lane = 'namelane.csv'
 filename_xml = "edgecount.xml"
@@ -67,11 +67,19 @@ for index, row in df_vol.iterrows(): # for every timestamp
     getinterval(begin, end, id)
 
     sensorlane_list_drop = list(row.index[1:])
-    for sensorlane_id in sensorlane_list_drop: # for every sensor and lane data
-        sensor_id = sensorlane_id
-        vol = str(row[sensorlane_id])
 
-        getedge(sensor_id, vol)
+    count_sum = 0
+    for sensorlane_id in sensorlane_list_drop: # for every sensor and lane data
+        sensor_id = sensorlane_id[:-2]
+        vol = row[sensorlane_id]
+        count_sum += vol
+
+        # if 1) last row or 2)new sensor in next row
+        if sensorlane_list_drop.index(sensorlane_id) + 1 == len(sensorlane_list_drop) or \
+            sensor_id != sensorlane_list_drop[sensorlane_list_drop.index(sensorlane_id)+1][:-2]:
+            count_sum = str(count_sum)
+            getedge(sensor_id, count_sum)
+            count_sum = 0
 
     xml.write('    </interval>\n')
 
