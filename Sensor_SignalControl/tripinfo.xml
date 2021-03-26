@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 03/09/21 10:50:11 by Eclipse SUMO GUI Version 1.8.0
+<!-- generated on 03/23/21 11:27:13 by Eclipse SUMO GUI Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
         <net-file value="../Onnut/onnut.net.xml"/>
         <route-files value="../Onnut/route_routesampler_edgecount.xml"/>
-        <additional-files value="../Onnut/detectors_01.add.xml"/>
+        <additional-files value="../Onnut/onnut_detectors.xml"/>
     </input>
 
     <output>
@@ -34,7 +34,7 @@
     </report>
 
     <traci_server>
-        <remote-port value="53615"/>
+        <remote-port value="55809"/>
     </traci_server>
 
     <gui_only>
@@ -46,4 +46,3 @@
 -->
 
 <tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
-</tripinfos>
