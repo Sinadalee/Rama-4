@@ -11213,10 +11213,10 @@
     </edge>
 
     <tlLogic id="cluster_1088409501_272206263_5136790697_70702637" type="static" programID="0" offset="0">
-        <phase duration="90" state="GGGGrrrrrrGGGGGGGr"/>
-        <phase duration="3"  state="GyyyrrrrrrGGyyyyyr"/>
-        <phase duration="60" state="GrrrGGGGGGGGGGrrrr"/>
-        <phase duration="3"  state="GrrryyyyyyGGyyrrrr"/>
+        <phase name = "1 one" duration="90" state="GGGGrrrrrrGGGGGGGr"/>
+        <phase name = "2 two" duration="3"  state="GyyyrrrrrrGGyyyyyr"/>
+        <phase name = "3 thr" duration="60" state="GrrrGGGGGGGGGGrrrr"/>
+        <phase name = "4 fou" duration="3"  state="GrrryyyyyyGGyyrrrr"/>
     </tlLogic>
     <tlLogic id="cluster_272206256_272448121_277360977" type="static" programID="0" offset="0">
         <phase duration="105" state="GGGGGGGGGrrrrrrrrrrrr"/>
