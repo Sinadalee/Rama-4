@@ -6,16 +6,24 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="AddLane.net.xml"/>
+        <net-file value="AddLane_edit2.net.xml"/>
         <!--<route-files value="osm.passenger.trips.xml"/>-->
-	<route-files value="routes_01242021.rou.xml"/>
-	<additional-files value="detectors_fromNameLane.add.xml"/>
+	<route-files value="route_turn_addsukhumvit200_lotus.rou.xml"/>
+	<additional-files value="detectors_ALL.add.xml"/>
+	
 
     </input>
 	<time>
         <begin value="54000" />
 	<end value="68400" />
     </time>
+
+	<output>
+		<!--netstate-dump value="summary.xml"/-->
+		<tripinfo-output.write-unfinished value = "true"/>
+		<summary-output value= "summary.xml"/>
+	</output>
+
     <processing>
         <ignore-route-errors value="true"/>
     </processing>
@@ -25,9 +33,10 @@
     </routing>
 
     <report>
-        <verbose value="true"/>
+        <verbose value="false"/>
         <duration-log.statistics value="true"/>
         <no-step-log value="true"/>
+	<no-warnings value= "true"/>
     </report>
 
 </configuration>
