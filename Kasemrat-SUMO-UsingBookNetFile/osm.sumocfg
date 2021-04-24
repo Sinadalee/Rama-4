@@ -8,7 +8,7 @@
     <input>
         <net-file value="AddLane_edit2.net.xml"/>
         <!--<route-files value="osm.passenger.trips.xml"/>-->
-	<route-files value="route_turn_addsukhumvit200_lotus.rou.xml"/>
+	<route-files value="route_200_type.rou.xml"/>
 	<additional-files value="detectors_ALL.add.xml"/>
 	
 
@@ -21,7 +21,7 @@
 	<output>
 		<!--netstate-dump value="summary.xml"/-->
 		<tripinfo-output.write-unfinished value = "true"/>
-		<summary-output value= "summary.xml"/>
+		<!--summary-output value= "summary.xml"/-->
 	</output>
 
     <processing>
